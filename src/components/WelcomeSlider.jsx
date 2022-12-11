@@ -1,7 +1,7 @@
-import onboard1 from "../assets/ivy-aralia-nizar-Si4PIiajJVU-unsplash.jpg";
-import onboard2 from "../assets/jannet-serhan-fSsAcx5URLA-unsplash.jpg";
-import onboard3 from "../assets/nordwood-themes-LrAsfltinp0-unsplash.jpg";
-import onboard4 from "../assets/onboard.jpg";
+// import onboard1 from "../assets/ivy-aralia-nizar-Si4PIiajJVU-unsplash.jpg";
+// import onboard2 from "../assets/jannet-serhan-fSsAcx5URLA-unsplash.jpg";
+// import onboard3 from "../assets/nordwood-themes-LrAsfltinp0-unsplash.jpg";
+// import onboard4 from "../assets/onboard.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,7 +14,7 @@ const WelcomeSlider = () => {
         modules={[Pagination]}
         className="mySwiper w-2/3 h-3/4"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img
             src={onboard1}
             alt=""
@@ -29,7 +29,7 @@ const WelcomeSlider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={onboard4} alt="" className="h-full w-full object-top" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

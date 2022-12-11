@@ -1,8 +1,7 @@
 import { useState } from "react";
 import "../node_modules/font-awesome/css/font-awesome.min.css";
-// import reactLogo from "./assets/react.svg";
-import Login from "./components/Login";
 import "./App.css";
+import Login from "./components/Login";
 import WelcomeSlider from "./components/WelcomeSlider";
 import PlantCard from "./Pages/PlantCard";
 function App() {
