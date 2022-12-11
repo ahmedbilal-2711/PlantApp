@@ -1,14 +1,18 @@
 import { useState } from "react";
+import "../node_modules/font-awesome/css/font-awesome.min.css";
 // import reactLogo from "./assets/react.svg";
 import Login from "./components/Login";
 import "./App.css";
-
+import WelcomeSlider from "./components/WelcomeSlider";
+import PlantCard from "./Pages/PlantCard";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <Login />
+      {/* <Login /> */}
+      {/* <WelcomeSlider /> */}
+      <PlantCard />
     </div>
   );
 }
